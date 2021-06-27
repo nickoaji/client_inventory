@@ -9,7 +9,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <!-- Favicon icon -->
-  <link rel="icon" type="image/png" sizes="16x16" href="<?php base_url('assets/xtreme_admin_lite/') ?>assets/images/favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?php base_url('assets\xtreme_admin_lite/assets/images/favicon.png') ?>">
   <title>Xtreme Admin Template - The Ultimate Multipurpose admin template</title>
   <!-- Custom CSS -->
   <link href="<?= base_url('assets/xtreme_admin_lite/') ?>css/style.min.css" rel="stylesheet">
@@ -132,6 +132,8 @@
                     <a class="dropdown-item" href="javascript:void(0)"><i class="ti-email m-r-5 m-l-5"></i> Inbox</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="javascript:void(0)"><i class="ti-settings m-r-5 m-l-5"></i> Account Setting</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#" onclick="loadMenu('<?= base_url('login') ?>')"><i class="fa fa-power-off m-r-5 m-l-5"></i> Login</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
                   </div>
